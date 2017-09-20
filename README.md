@@ -1,2 +1,2 @@
-# algorithm-implementations
-A re-implementation of standard algorithms for practice.
+# Algorithm Implementations
+A notebook of sort, as practice of standard algorithms.
