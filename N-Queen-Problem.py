@@ -4,7 +4,8 @@ def printboard(A):
         for j in range(len(A)):
             print(A[i][j],end=' ')
         print()
-def issafe(A,row,col):
+        
+def issafe(A,row,col): 
     for i in range(col):
         if A[row][i]==1:
             return False
@@ -37,7 +38,7 @@ def solveboard(A,col):
                 return True
             else:
                 A[i][col]=0
-    #return False
+    return False
 
 n=int(input())
 A=[]
